@@ -43,7 +43,6 @@
                      <a href="index.php" class="nav-link">Home</a>
                  </li>
              </ul>
-
          </div>   
         </nav>
     </header>

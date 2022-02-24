@@ -30,14 +30,14 @@
                            </select>
                         </div>
                         <div class="form-group">
-                           <label for="sabores">Sabores: (Máximo 2)</label> 
+                           <label for="sabores">Sabores salgadas e doces: (Máximo 2)</label> 
                            <select multiple name="sabores[]" id="sabores" class="form-control">
                             <?php foreach($sabores as $sabor): ?>
                                 <option value="<?=$sabor['id'] ?>"><?= $sabor["nome"] ?></option>
                             <?php endforeach; ?>   
                            </select>
                         </div>
-                        <div class="form-group">
+                          <div class="form-group">
                             <input type="submit" class="btn btn-primary" value="Fazer pedido!">
                         </div>
                     </form>
